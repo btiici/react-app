@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: poppins, sans-serif
+}
+
+nav div{
+    display: flex;
+    height: 70px;
+    padding: 20px 36px;
+    box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroImage{
+    max-width: 600px;
+    align-self: center;
+    margin-top: 26px;
+}
+
+h1{
+    text-align: left;
+    padding-left: 36px;
+    margin-bottom: .5rem;
+    font-size: 3rem;
+}
+
+.hero p{
+    margin-top: 0;
+    padding-left: 36px;
+    width: 320px;
+
+}
+
+.Cards{
+    display: flex;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+}
+
+.card-container p{
+    font-size: 12px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.details img {
+    width: 14px;
+    height: 14px
+}
+
+.details div{
+    background-color: rgba(145, 142, 155, 1);
+    width: 2px;
+    border: 1px solid rgba(145, 142, 155, 1);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.about{
+    margin-top: 0;
+}
+
+.amount{
+    font-weight: bold;
+}
