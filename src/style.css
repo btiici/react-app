@@ -39,16 +39,34 @@ h1{
 
 }
 
-.Cards{
+.cards{
     display: flex;
+    justify-content: space-between;
+    margin-left: 18px;
 }
+
+.card-badge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+    
 
 .card-container{
     display: flex;
     flex-direction: column;
     width: 176px;
+    position: relative;
 }
 
+.card-container img{
+    width: 100%;
+    height: 235px;
+}
 .card-container p{
     font-size: 12px;
 }
@@ -79,3 +97,4 @@ h1{
 .amount{
     font-weight: bold;
 }
+

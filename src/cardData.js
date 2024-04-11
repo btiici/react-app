@@ -3,37 +3,40 @@ import wedding from "./images/wedding-photography1.png"
 import mountain from "./images/mountain-bike1.png"
 import Image from "./images/image12.png"
 
-// const Image = () => {
-//     <projectCard img={'./'} />
-// }
 
 export default[
     {
-        img:{Image},
-        star :{Star},
+        id :1,
+        img:Image,
+        star :Star,
         rating :"5.0",
         people :"(6)",
-        country :"USA",
+        location :"online",
         topic :"Life lessons with Katie Zaferes",
-        amount :"From $136"
+        amount :"From $136",
+        openSpots : 0
     },
     {
-        img : {wedding},
-        star :{Star},
+        id :2,
+        img : wedding,
+        star :Star,
         rating :"5.0",
         people :"(30)",
-        country :"UK",
+        location :"online",
         topic :"Learn wedding photography",
-        amount :"From $125"
+        amount :"From $125",
+        openSpots : 5
     },
     {
-        img : {mountain},
-        star :{Star},
+        id :3,
+        img : mountain,
+        star :Star,
         rating :"4.8",
         people :"(2)",
-        country :"NIGERIA",
+        location :"NIGERIA",
         topic :"Group Mountain Biking",
-        amount :"From $50"
+        amount :"From $50",
+        openSpots: 18
     }
 
 ]

@@ -8,13 +8,16 @@ export default function App(){
     const cardElements = cardData.map((item) => {
         return (
             <Card
+                    key={item.id}
                     img={item.img}
                     star={item.star}
                     rating={item.rating}
                     people={item.people}
-                    country={item.country}
+                    location={item.location}
                     topic={item.topic}
                     amount={item.amount} 
+                    openSpots ={item.openSpots}
+
             />
         )
     })
@@ -23,8 +26,9 @@ export default function App(){
         <div>
             <Nav />
             <Hero />
-            <Card />
+            <div className="cards">
             {cardElements}
+            </div>
         </div>
     )
 }
